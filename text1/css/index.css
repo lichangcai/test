@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px
+
+}
+body{
+    background: lightskyblue;
+}
+.top{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    background-size:100%;
+    margin: 0px;
+}
+.top img{
+    width: 100%;
+    position: relative;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: lightskyblue;
+    margin-top: -1rem;
+    z-index: 100;
+    position: absolute;
+}
+.content .content_top{
+
+    height: 0.5rem;
+    background: url("../img/aio_img_2.png")no-repeat;
+    z-index: 100;
+    margin-left: 3%;
+    background-size:97%;
+    padding: 0px;
+}
+.content .content_center{
+    overflow: hidden;
+    background: url("../img/aio_img_3.png");
+    z-index: 100;
+    margin-left: 3%;
+    background-size:100% ;
+    margin-right: 3%;
+    margin-top: -0.1rem;
+}
+.content .content_center .title{
+    height: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.content .content_center .title img{
+    max-width: 100%;
+}
+.content .content_center .problem{
+    padding-top: 0.25rem;
+    height: 1rem;
+    position: relative;
+    border-top:2px solid lightsteelblue;
+}
+.content .content_center .problem .left{
+    padding-top: 0.08rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 15%;
+    width: 25%;
+    float: left;
+    height: 1rem;
+    position: absolute;
+    background: url("../img/aio_btn_0.png")no-repeat;
+    background-size: 100% auto;
+    font-size: 0.3rem;
+}
+
+.content .content_center .problem .right{
+    padding-top: 0.08rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 60%;
+    width: 25%;
+    float: left;
+    height: 1rem;
+    position: absolute;
+    background: url("../img/aio_btn_0.png")no-repeat;
+    background-size: 100% auto;
+    font-size: 0.3rem;
+}
+.content .content_footer{
+    height: 1.1rem;
+    background: url("../img/aio_img_4.png") no-repeat;
+    z-index: 100;
+    margin-left: 3%;
+    background-size: 97%;
+}
+.content_footer_cneter{
+    margin-left: 3%;
+    overflow: hidden;
+    background: url("../img/aio_img_1.png");
+    width: 94%;
+    background-size:100% ;
+    z-index: 100;
+}
+.content_footer_cneter .center_top{
+    height: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.content_footer_cneter .center_top p{
+    font-size: 0.32rem;
+    margin-bottom: 0.15rem;
+}
+.content_footer_cneter .center_top p i{
+    font-style: normal;
+    color: red;
+}
+.content_footer_cneter .register{
+    overflow: hidden;
+    width: 100%;
+}
+.content_footer_cneter .register .name{
+    display: flex;
+    align-content: center;
+    line-height: 1rem;
+    height: 1rem;
+    width: 100%;
+    font-size:0.24rem ;
+    padding-left: 0.6rem;
+}
+.content_footer_cneter .register .name input{
+    padding: 0px 10px;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    width: 68%;
+    font-size: 0.24rem;
+    border: 1px solid black;
+    background: inherit;
+    border-radius: 3px;
+}
+.content_footer_cneter .register .name #address{
+    padding: 0px 10px;
+    height: 0.5rem;
+    margin-top: 0.25rem;
+    width: 70%;
+    font-size: 0.24rem;
+    border: 1px solid black;
+    background: #aaaaaa;
+    pa
+}
+.content_footer_cneter .register .name #address option{
+    color: red;
+    font-size: 18px;
+    background: #ffffff;
+}
+.content_footer_cneter .agreement{
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    height: 1rem;
+
+}
+.content_footer_cneter .agreement img{
+    display: inline-block;
+    float: left;
+    margin-top: 0.35rem;
+    width: 4%;
+    position: relative;
+}
+.content_footer_cneter .agreement i{
+    font-style: normal;
+    font-size: 0.24rem;
+    float: left;
+    margin-top: -0.45rem;
+    margin-left: 0.35rem;
+    position: relative;
+    width: 90%;
+}
+.content_footer_cneter .btn{
+    width: 80%;
+    margin: 0 auto;
+}
+.content_footer_cneter .btn img{
+    width: 100%;
+    margin-top: 1rem;
+}
+.time{
+    width:80%;
+    margin-left: 10%;
+    height:100%;
+    overflow: hidden;
+}
+.time h1{
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: #1A1A1A;
+}
+.time h1 span{
+    color: black;
+}
+.time ul{
+    margin-top: 0.3rem;
+}
+.time ul li{
+    margin-left: 0.3rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.24rem;
+    color: #1A1A1A;
+}
