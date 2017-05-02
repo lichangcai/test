@@ -80,6 +80,10 @@ body{
     font-size: 1.6em;
     line-height: 1rem;
 }
+.content .content_center .problem .active{
+    background:url("../img/aio_btn_sel_0.png")no-repeat;
+    background-size: 100% auto;
+}
 .content .content_footer{
     height: 9%;
     background: url("../img/aio_img_4.png") no-repeat;
